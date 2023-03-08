@@ -1,0 +1,98 @@
+*  {
+     margin:0%;
+     padding: 0%;
+     box-sizing: border-box;
+  }
+/* #body
+  {
+    background-image: url("https://d1m75rqqgidzqn.cloudfront.net/wp-data/2021/04/16194211/iStock-507071472.jpg");
+    background-position: center;
+    background-attachment: fixed ;
+    background-size: cover;
+    height: 100vh;
+  } */
+  #cover
+  {
+      /* background-color: rgb(241, 224, 128); */
+      background-image: linear-gradient(79deg,#ecec53,#fcfced,48%,#98c6eb);
+      opacity: 0.5;
+      position:absolute;
+      left:35%;
+      top:15%;
+      border-radius: 15px;
+      height: 70vh;
+      width: 67vh;
+      background-size: cover;
+      color: white;
+      box-shadow: 0 0.188em 1.550em #ecec53;
+     
+  }
+  .container
+  {
+    background-position: center;
+    background-attachment: fixed ;
+    background-size: cover;
+    display: flex;
+  }
+  #formContent
+  {
+      position:absolute;
+      left: 37%;
+      top:20%;
+     
+  }
+.uname
+{
+  position: relative;
+  left:63%;
+  font-weight: bold;
+  font-size: large;
+}
+.pwd
+{
+  position: relative;
+  left:63%;
+  font-weight: bold;
+  font-size: large;
+}
+h2{
+    text-align: center;
+    position: relative;
+    left:47%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+  }
+  #username
+  {
+    position: relative;
+    left: 43%; 
+  }
+  #password
+  {
+    position: relative;
+    left: 43%; 
+  }
+  .ln-btn
+  {
+    position: relative;
+    left: 43%;
+  }
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+    #cover{
+      display:flex;
+    }
+  } 
+  
