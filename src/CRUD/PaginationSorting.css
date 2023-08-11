@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    /* padding: 0.1rem; */
+  }
+  
+.previous
+{
+  background-color: rgb(135, 203, 230);
+  position: absolute;
+  top:13%;
+}
+.next{
+  position: absolute;
+  background-color: rgb(135, 203, 230);
+  top:14%;
+  left:66%;
+}
+.pagenospan
+{
+  position: absolute;
+  top:88%;
+  font-weight: bolder;
+  align-items: center;
+  left:45%;
+}
+#sortBy{
+    position: absolute;
+    left:86%;
+    top:20%;
+  }
+  .sorting label{
+    position: absolute;
+    left:81%;
+    top:20%;
+  }

@@ -1,0 +1,59 @@
+.orderdetails
+{ 
+    background-image:url("../Images/orderbg.jpeg");
+    background-position: center;
+    background-attachment: fixed ;
+    background-size: cover;
+    opacity: 0.9;
+    justify-content: center;
+    display: flex;
+    height: 180vh;
+}
+.ordercover
+{
+    background-image: linear-gradient(79deg,#17abbe,#331e6e,48%,#2310cc);
+      opacity: 0.2;
+      position:absolute;
+      left:36%;
+      top:15%;
+      border-radius: 15px;
+      height: 150vh;
+      width: 67vh;
+      background-size: cover;
+      box-shadow: 0 0.188em 1.550em #2809b1;
+      backdrop-filter: blur(120px);
+}
+.orderingdetails
+{
+    justify-content: center;
+    font-style: oblique;
+    position: relative;
+    left:18%;
+}
+.oform-group
+{
+  font-style:oblique;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left:25%;
+}
+.oform-control
+{
+    background-color:rgb(255, 255, 255); 
+    justify-content: center;
+    position: relative;
+    left:25%;
+}
+.oform-control:hover{
+    box-shadow:0 0.188em 1.550em rgb(35, 5, 204);;
+}
+#odsubmit{
+    background-color: #3d5add;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top:70px;
+    left:60%;
+    box-shadow: 0 0.188em 1.550em rgb(36, 8, 136);
+}

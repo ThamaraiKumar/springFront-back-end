@@ -1,0 +1,76 @@
+.updatedform
+{
+    display: flex;
+    flex-direction: column;
+}
+.update-group{
+    background-color: rgba(26, 183, 211, 0.363);
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.formtitle
+{
+    justify-content: center;
+    position: absolute;
+    top:12%;
+    left:40%;
+    color: rgb(0, 0, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.lubookname
+{
+    position: absolute;
+    top:23%;
+    left:33%;
+}
+.luauthor
+{
+     position: absolute;
+     top:38%;
+     left:33%;
+     
+}
+.luprice
+{
+     position: absolute;
+     top:53%;
+     left:33%;
+     
+}
+.lucategory
+{
+     position: absolute;
+     top:23%;
+     left:53%;
+     
+}
+.luvolume
+{
+     position: absolute;
+     top:38%;
+     left:53%;
+     
+}
+.luimage
+{
+     position: absolute;
+     top:53%;
+     left:53%;  
+}
+.busave{
+    position: absolute;
+    top:70%;
+    left:47%;
+    background-color: rgb(161, 107, 68);
+    font-family: cursive;
+    font-weight: bolder;
+}
+#updatebg{
+    background-image: url("https://www.nicepng.com/png/full/122-1227593_gamebook-background-book-background-images-png.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

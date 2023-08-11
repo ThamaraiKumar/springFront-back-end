@@ -1,0 +1,23 @@
+.deletebyid
+{
+    background-color: rgb(136, 158, 230);
+    align-items: center;
+    font-style: italic;
+    font-family: cursive;
+    position: absolute;
+    top:172%;
+}
+.deletehead img{
+    position: absolute;
+    left:83%;
+    top:113%;
+}
+.deletehead
+{
+    position:absolute;
+    align-items: center;
+    top:23%;
+    left:43%;
+    font-family:cursive;
+    font-style: italic;
+}

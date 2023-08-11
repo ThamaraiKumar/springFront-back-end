@@ -6,25 +6,25 @@
 }
 .signcover
 {
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-taobao-bookstore-creative-poster-banner-background-image_163775.jpg");
-    background-position: center;
-    background-attachment:scroll;
-    background-size: cover;
-    display: flex;
-    min-height: 110vh;   
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-taobao-bookstore-creative-poster-banner-background-image_163775.jpg");
+  background-position: center;
+  background-attachment:scroll;
+  background-size: cover;
+  display: flex;
+  min-height: 110vh;   
 }
 .scover{
     background-image: linear-gradient(70deg,#2224a1,#1cedfc,48%,#3a14e6);
-      opacity: 0.5;
-      position:absolute;
-      left:35%;
-      top:8%;
-      border-radius: 15px;
-      height: 98vh;
-      width: 67vh;
-      background-size: cover;
-      color: white;
-      box-shadow: 0 0.188em 1.550em #000000;
+    opacity: 0.5;
+    position:absolute;
+    left:35%;
+    top:8%;
+    border-radius: 15px;
+    height: 98vh;
+    width: 67vh;
+    background-size: cover;
+    color: white;
+    box-shadow: 0 0.188em 1.550em #000000;
 }
 .formContent
   {

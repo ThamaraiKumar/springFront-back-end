@@ -20,7 +20,7 @@
       left:35%;
       top:15%;
       border-radius: 15px;
-      height: 70vh;
+      height: 80vh;
       width: 67vh;
       background-size: cover;
       color: white;
@@ -38,7 +38,8 @@
   {
       position:absolute;
       left: 37%;
-      top:20%;
+      top: 20%;
+      
      
   }
 .uname
@@ -72,24 +73,32 @@ h2{
     position: relative;
     left: 43%; 
   }
-  .ln-btn
+  #usertype
   {
     position: relative;
-    left: 43%;
+    left:43%;
   }
+  .ln-btn
+  {
+    position: absolute;
+    top:120%;
+    /* position: relative;  */
+    left: 83%;
+  }
+.usertype
+{
+  position: absolute;
+  top:89%;
+  left:63%;
+  font-weight: bold;
+  font-size: large;
+}
+#usertype
+{
+  position: absolute;
+  top:97%;
 
-  
-  
-
-
-
-
-
-
-
-
-
-
+}
 @media only screen and (min-width: 1024px) {
     #cover{
       display:flex;

@@ -1,0 +1,42 @@
+table
+{
+    width:80%;
+    position: absolute;
+    top:25%;
+    /* left:10%; */
+}
+
+.tableheading
+{
+  top:9%;
+  position: fixed;
+  left:44%;
+  position: absolute;
+}
+td {
+    text-align: center;
+  }
+th, td {
+    border-bottom: 1px solid #0a0000; 
+  }
+  tr:nth-child(even) {background-color: #8180cea4;}
+  th{
+    background-color: #64c2e7e8;
+    color: white;
+  }
+   .readdelete{
+    background-color: rgb(212, 77, 77);
+    border-radius: 0;
+  }
+  .readupdate
+  {
+    background-color: rgb(30, 133, 65);
+    border-radius: 0;
+  }
+  .pagsort
+  {
+    position:absolute;
+    display: flex;
+    top:87%;
+   
+  }
