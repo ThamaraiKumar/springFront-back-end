@@ -1,6 +1,6 @@
 package com.bookDetails.entity;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -16,11 +16,8 @@ public class SignUpEntity {
 	private String userName;
 	private String emailId;
 	private String password;
-	@JsonProperty("First Name")
 	private String fname;
-	@JsonProperty("Last Name")
-	private String lname;
-	
+	private String usertype;
 	public String getUserName() {
 		return userName;
 	}
@@ -45,11 +42,13 @@ public class SignUpEntity {
 	public void setFname(String fname) {
 		this.fname = fname;
 	}
-	public String getLname() {
-		return lname;
+	public String getUsertype() {
+		return usertype;
 	}
-	public void setLname(String lname) {
-		this.lname = lname;
+	public void setUsertype(String usertype) {
+		this.usertype = usertype;
 	}
+	
+	
 	
 }

@@ -2,12 +2,14 @@ package com.bookDetails.service;
 
 import java.util.Optional;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.domain.Sort.Direction;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.bookDetails.entity.BookDetails;
@@ -27,6 +29,17 @@ public class BookDetailsService {
 		{
 			return bookRepository.findById(id);
 		}
+		public Optional<BookDetails>getByName(String bookName,String authorName)
+		{
+			return bookRepository.getByBook(bookName, authorName);
+		}
+		
+		
+		public Optional<BookDetails>getByName(String bookName)
+		{
+			return bookRepository.findByKeyword(bookName);
+		}
+		
 		public BookDetails update(BookDetails book)
 		{
 			return bookRepository.save(book);
@@ -40,6 +53,13 @@ public class BookDetailsService {
 			return bookRepository.findAll();
 		}
 		
+		public ResponseEntity<BookDetails>updateById(int id,BookDetails book)
+		{
+			bookRepository.save(book);
+			return ResponseEntity.ok(book);
+		}
+		
+		
 		public Iterable<BookDetails> sortBook(String field)
 	  {
 		  return bookRepository.findAll(Sort.by(Direction.DESC, field));
@@ -52,6 +72,11 @@ public class BookDetailsService {
 	  public BookDetails saveBook(BookDetails book)
 	  {
 		  return bookRepository.save(book);
+	  }
+	  public String saveBooks(BookDetails book)
+	  {
+		   bookRepository.save(book);
+		   return "Thanks for Posting";
 	  }
 	  public Page<BookDetails>pagingBook(int page,int pageSize)
 	  {

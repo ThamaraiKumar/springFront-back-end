@@ -7,22 +7,20 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bookDetails.entity.SignUpEntity;
-import com.bookDetails.service.SignUpService;
-
-
+import com.bookDetails.entity.Orderdetails;
+import com.bookDetails.service.OrderDetailsService;
 
 @RestController
-@CrossOrigin
 @RequestMapping("/api")
-public class SignUpController {
-  @Autowired
-  private SignUpService signUp ;
-  
-  @PostMapping("/signUp")
-  public String singUp(@RequestBody SignUpEntity signup)
-  {
-	   return signUp.saveSignUp(signup);
-  
-  }
+@CrossOrigin
+public class OrderDetailsController {
+	@Autowired
+	OrderDetailsService orderService;
+	
+	@PostMapping("/order/post")
+	public String post(@RequestBody Orderdetails order)
+	{
+		return orderService.Ordering(order);
+	}
+
 }

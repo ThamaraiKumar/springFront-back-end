@@ -15,4 +15,8 @@ public class LoginService {
 	{
 		return signUpRepository.readByUserName(userName);
 	}
+	public Iterable<SignUpEntity> read()
+	{
+		return signUpRepository.findAll();
+	} 
 }
